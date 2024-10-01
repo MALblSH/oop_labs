@@ -1,11 +1,11 @@
 #include <iostream>
-#include "FileManager.h"
-#include "WordCounter.h"
+#include "..\include\FileManager.h"
+#include "..\include\WordCounter.h"
 
 
 int main(int argc, char* argv[]) {
     std::string line;
-    if((argc != 3) && 0){
+    if(argc != 3){
         std::cerr << "Error: invalid number of arguments" << std::endl;
         return 1;
     }

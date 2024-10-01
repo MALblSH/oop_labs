@@ -2,7 +2,7 @@
 #include <fstream>
 #include <list>
 #include <cmath>
-#include "FileManager.h"
+#include "..\include\FileManager.h"
 
 
 

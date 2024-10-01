@@ -2,7 +2,7 @@
 #include <list>
 
 
-#include "WordCounter.h"
+#include "..\include\WordCounter.h"
 
 
 std::list<std::string> WordCounter::splitWords(std::string &text) {
